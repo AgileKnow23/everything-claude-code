@@ -1,6 +1,6 @@
 ---
 name: django-verification
-description: Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR.
+description: "Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR."
 ---
 
 # Django 検証ループ
@@ -348,7 +348,7 @@ DJANGO 検証レポート
   ✓ ハードコードされたシークレットなし
   ✓ マイグレーションが含まれる
 
-推奨: ⚠️ デプロイ前にpip-auditの脆弱性を修正してください
+推奨: WARNING: デプロイ前にpip-auditの脆弱性を修正してください
 
 次のステップ:
 1. 脆弱な依存関係を更新
